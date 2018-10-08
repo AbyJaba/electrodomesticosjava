@@ -223,9 +223,9 @@ public class Testing
     @org.junit.Test
     public void shouldGiveFinalPriceTV()
     {
-        Television tv = new Television(700.00,"azul",'A',15,52,true);
+        Television tv = new Television(1200,"blanco",'E',7,60,true);
         double finalprice = Appliance.finalPrice(tv);
-        assertEquals(1070.00, finalprice,0.0000001);
+        assertEquals(1677, finalprice,0.0000001);
     }
 
     @org.junit.Test
@@ -265,9 +265,8 @@ public class Testing
         gadgets[9] = new Television(30, "metal", 'F',5,30,true);
 
         double[] prices = Controller.appliancesPrices(gadgets);
-        assertEquals(1500, prices[0], 0.00000001);
+        assertEquals(800, prices[1], 0.00000001);
     }
-
 }
 
 

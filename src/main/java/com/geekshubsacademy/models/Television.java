@@ -34,11 +34,11 @@ public class Television extends Appliance {
 
     public static double finalPriceTV (Television appliance)
     {
-        if (appliance.resolution > 40)
-            appliance.base_price *= 1.30;
-
         if (appliance.TDTreceiver)
             appliance.base_price += 50.00;
+
+        if (appliance.resolution > 40)
+            appliance.base_price *= 1.30;
 
         return appliance.base_price;
     }
