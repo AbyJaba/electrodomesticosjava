@@ -3,8 +3,6 @@ package com.geekshubsacademy.models;
 public class WashingMachine extends Appliance {
     protected int load=5;
 
-// Constructores
-
     public WashingMachine() {
         super();
     }
@@ -24,12 +22,10 @@ public class WashingMachine extends Appliance {
     }
 
 
-// Getter
     public int getload() {
         return load;
     }
 
-// Métodos
     public static double finalPriceWash (WashingMachine appliance)
     {
         if (appliance.load > 30)

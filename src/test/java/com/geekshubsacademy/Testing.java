@@ -7,7 +7,6 @@ import com.geekshubsacademy.controller.Controller;
 import com.geekshubsacademy.models.Appliance;
 import com.geekshubsacademy.models.Television;
 import com.geekshubsacademy.models.WashingMachine;
-import com.geekshubsacademy.view.App;
 
 /**
  * Unit test for simple App.

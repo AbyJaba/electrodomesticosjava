@@ -4,8 +4,6 @@ public class Television extends Appliance {
     int resolution = 20;
     boolean TDTreceiver = false;
 
-//Constructores
-
     public Television() {
         super();
     }
@@ -26,8 +24,6 @@ public class Television extends Appliance {
         this.TDTreceiver = TDTreceiver;
     }
 
-//Getters
-
     public int getResolution() {
         return resolution;
     }
@@ -36,7 +32,6 @@ public class Television extends Appliance {
         return TDTreceiver;
     }
 
-//Métodos
     public static double finalPriceTV (Television appliance)
     {
         if (appliance.resolution > 40)
